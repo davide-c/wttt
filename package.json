@@ -1,0 +1,37 @@
+{
+    "name": "wt-tech-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "dist/index.js",
+    "scripts": {
+        "test": "jest --config jest.config.ts",
+        "test:watch": "jest --config jest.config.ts --watchAll --no-coverage",
+        "format": "prettier --write \"**/(src|test)/**/*.(js|ts|json)\"",
+        "lint": "eslint \"**/*.ts{,x}\""
+    },
+    "author": "davide.cutrino@gmail.com",
+    "license": "ISC",
+    "devDependencies": {
+        "@eslint/eslintrc": "^3.1.0",
+        "@eslint/js": "8.56.0",
+        "@types/axios": "^0.14.0",
+        "@types/jest": "^29.5.12",
+        "@types/yargs": "^17.0.32",
+        "@typescript-eslint/eslint-plugin": "^7.17.0",
+        "eslint": "8.56.0",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-prettier": "^5.2.1",
+        "globals": "^15.8.0",
+        "jest-json": "^2.0.0",
+        "ts-jest": "^29.2.3",
+        "ts-node": "^10.9.2",
+        "type-fest": "^4.23.0"
+    },
+    "dependencies": {
+        "axios": "^1.7.2",
+        "mkdirp": "^3.0.1",
+        "ts-deepmerge": "^7.0.1",
+        "tslib": "^2.6.3",
+        "yargs": "^17.7.2"
+    }
+}

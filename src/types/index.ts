@@ -1,0 +1,1 @@
+export { DomainDnsData } from './DomainDnsData';

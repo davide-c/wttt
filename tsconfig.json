@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "strict": true,
+        "sourceMap": true,
+        "esModuleInterop": true,
+        "preserveConstEnums": true,
+        "rootDir": ".",
+        "allowJs": false,
+        "declaration": true,
+        "declarationMap": true,
+        "allowSyntheticDefaultImports": true,
+        "skipLibCheck": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "downlevelIteration": true,
+        "resolveJsonModule": true,
+        "importHelpers": true,
+        "isolatedModules": false,
+        "types": ["node", "jest", "jest-json"]
+    },
+    "exclude": ["**/node_modules"]
+}
