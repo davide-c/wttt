@@ -1,4 +1,4 @@
-# Dns record util
+# Dns record cli util POC
 
 ## Business requirements
 - Ability to persist dns records information in our system.
@@ -55,7 +55,7 @@ The above object represents the state of our json storage for the domain provide
 
 The whole database file can be found at the configurable location `./.db/dns-records.json`.
 
-Please see below a sample JSON db:
+Here's a sample JSON db:
 ```json
 {
   "test1234.com": {
