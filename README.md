@@ -38,7 +38,7 @@ The cli app can be executed by running the following command:
 
 The command can be piped into `jq` for a nicer output. (`brew install jq` on `macos`)
 
-The above command should produce the following output on a fresh project copy:
+The above command will produce output similar to the following:
 
 ```json
 {
@@ -51,7 +51,7 @@ The above command should produce the following output on a fresh project copy:
 }
 ```
 
-The above object represents the state of our json storage for the domain provided via cli.
+The above object represents the updated state of our storage for the queried domain.
 
 The whole database file can be found at the configurable location `./.db/dns-records.json`.
 
